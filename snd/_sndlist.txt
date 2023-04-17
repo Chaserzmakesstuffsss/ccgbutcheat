@@ -27,6 +27,7 @@ clickb4.mp3
 clickb5.mp3
 clickb6.mp3
 clickb7.mp3
+clicker.mp3
 cookieBreak.mp3
 cymbalCrash.mp3
 cymbalRev.mp3
