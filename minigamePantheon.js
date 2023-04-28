@@ -132,7 +132,7 @@ M.launch=function()
 			'Diamond','Ruby','Jade'
 		];
 		
-		M.swaps=3;//swaps left
+		M.swaps=500;//swaps left
 		M.swapT=Date.now();//the last time we swapped
 		
 		M.lastSwapT=0;//frames since last swap
