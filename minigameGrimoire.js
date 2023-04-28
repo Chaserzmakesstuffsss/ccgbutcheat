@@ -39,8 +39,8 @@ M.launch=function()
 				desc:'Summon a random golden cookie. Each existing golden cookie makes this spell +15% more likely to backfire.',
 				failDesc:'Summon an unlucky wrath cookie.',
 				icon:[22,11],
-				costMin:10,
-				costPercent:0.6,
+				costMin:1,
+				costPercent:0.1,
 				failFunc:function(fail)
 				{
 					return fail+0.15*Game.shimmerTypes['golden'].n;
