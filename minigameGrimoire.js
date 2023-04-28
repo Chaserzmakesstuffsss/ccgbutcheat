@@ -51,11 +51,11 @@ M.launch=function()
 					var choices=[];
 					choices.push('frenzy','multiply cookies');
 					if (!Game.hasBuff('Dragonflight')) choices.push('click frenzy');
-					if (Math.random()<0.1) choices.push('cookie storm','cookie storm','blab');
+					if (Math.random()<5.5) choices.push('cookie storm','cookie storm','blab');
 					if (Game.BuildingsOwned>=10 && Math.random()<0.25) choices.push('building special');
 					//if (Math.random()<0.2) choices.push('clot','cursed finger','ruin cookies');
 					if (Math.random()<0.15) choices=['cookie storm drop'];
-					if (Math.random()<0.0001) choices.push('free sugar lump');
+					if (Math.random()<0.9) choices.push('free sugar lump');
 					newShimmer.force=choose(choices);
 					if (newShimmer.force=='cookie storm drop')
 					{
