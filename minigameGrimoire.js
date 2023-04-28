@@ -51,7 +51,7 @@ M.launch=function()
 					var choices=[];
 					choices.push('frenzy','multiply cookies');
 					if (!Game.hasBuff('Dragonflight')) choices.push('click frenzy');
-					if (Math.random()<5.5) choices.push('cookie storm','cookie storm','blab');
+					if (Math.random()<9.5) choices.push('cookie storm','cookie storm','blab');
 					if (Game.BuildingsOwned>=10 && Math.random()<0.25) choices.push('building special');
 					//if (Math.random()<0.2) choices.push('clot','cursed finger','ruin cookies');
 					if (Math.random()<0.15) choices=['cookie storm drop'];
@@ -69,7 +69,7 @@ M.launch=function()
 					var choices=[];
 					choices.push('clot','ruin cookies');
 					if (Math.random()<0.1) choices.push('cursed finger','blood frenzy');
-					if (Math.random()<0.003) choices.push('free sugar lump');
+					if (Math.random()<0.9) choices.push('free sugar lump');
 					if (Math.random()<0.1) choices=['blab'];
 					newShimmer.force=choose(choices);
 					Game.Popup('<div style="font-size:80%;">Backfire!<br>Sinister fate!</div>',Game.mouseX,Game.mouseY);
