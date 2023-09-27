@@ -7801,7 +7801,7 @@ Game.Launch=function()
 				var price=0;
 				for (var i=Math.max(0,(this.amount)-amount);i<Math.max(0,this.amount);i++)
 				{
-					price+=this.basePrice*Math.pow(Game.priceIncrease,Math.max(0,i-this.free));
+					
 				}
 				price=Game.modifyBuildingPrice(this,price);
 				price*=this.getSellMultiplier();
